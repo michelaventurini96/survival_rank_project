@@ -1,0 +1,425 @@
+FILE:  addicts.csv
+COX
+l1: 0.3, a: 1e-05 score: 0.6529284164859002
+l1: 0.3, a: 0.001 score: 0.6529284164859002
+l1: 0.3, a: 0.1 score: 0.6290672451193059
+l1: 0.5, a: 1e-05 score: 0.6529284164859002
+l1: 0.5, a: 0.001 score: 0.6529284164859002
+l1: 0.5, a: 0.1 score: 0.6572668112798264
+l1: 0.9, a: 1e-05 score: 0.6529284164859002
+l1: 0.9, a: 0.001 score: 0.6550976138828634
+l1: 0.9, a: 0.1 score: 0.6572668112798264
+RSF
+n_est: 100, max_d: 6 score: 0.631236442516269
+n_est: 100, max_d: 9 score: 0.5878524945770065
+n_est: 100, max_d: 12 score: 0.6160520607375272
+n_est: 200, max_d: 6 score: 0.6268980477223427
+n_est: 200, max_d: 9 score: 0.6225596529284165
+n_est: 200, max_d: 12 score: 0.6073752711496746
+n_est: 300, max_d: 6 score: 0.6247288503253796
+n_est: 300, max_d: 9 score: 0.6030368763557483
+n_est: 300, max_d: 12 score: 0.6073752711496746
+XGB
+eta: 0.003, max_d: 6 score: 0.5553145336225597
+eta: 0.003, max_d: 9 score: 0.5412147505422994
+eta: 0.003, max_d: 12 score: 0.5412147505422994
+eta: 0.03, max_d: 6 score: 0.56941431670282
+eta: 0.03, max_d: 9 score: 0.5390455531453362
+eta: 0.03, max_d: 12 score: 0.5390455531453362
+eta: 0.3, max_d: 6 score: 0.559652928416486
+eta: 0.3, max_d: 9 score: 0.5531453362255966
+eta: 0.3, max_d: 12 score: 0.5531453362255966
+DEEPSURV
+lr: 0.05, nn: [16], score: 0.7006507592190889
+lr: 0.05, nn: [32], score: 0.6984815618221258
+lr: 0.05, nn: [64], score: 0.7331887201735358
+lr: 0.05, nn: [16, 16], score: 0.7006507592190889
+lr: 0.05, nn: [32, 32], score: 0.7006507592190889
+lr: 0.05, nn: [64, 64], score: 0.7017353579175705
+lr: 0.05, nn: [16, 16, 16], score: 0.6876355748373102
+lr: 0.05, nn: [32, 32, 32], score: 0.6898047722342733
+lr: 0.05, nn: [64, 64, 64], score: 0.7537960954446855
+8
+RANKSURV
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16], score: 0.6811279826464208
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32], score: 0.6594360086767896
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64], score: 0.6832971800433839
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16], score: 0.6648590021691974
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32], score: 0.6572668112798264
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64], score: 0.6789587852494577
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16, 16], score: 0.6800433839479393
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32, 32], score: 0.6724511930585684
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64, 64], score: 0.6713665943600867
+2
+FILE:  echocardiogram.csv
+COX
+l1: 0.3, a: 1e-05 score: 0.34269662921348315
+l1: 0.3, a: 0.001 score: 0.4101123595505618
+l1: 0.3, a: 0.1 score: 0.4101123595505618
+l1: 0.5, a: 1e-05 score: 0.34831460674157305
+l1: 0.5, a: 0.001 score: 0.4101123595505618
+l1: 0.5, a: 0.1 score: 0.4101123595505618
+l1: 0.9, a: 1e-05 score: 0.34831460674157305
+l1: 0.9, a: 0.001 score: 0.34831460674157305
+l1: 0.9, a: 0.1 score: 0.4101123595505618
+RSF
+n_est: 100, max_d: 6 score: 0.39325842696629215
+n_est: 100, max_d: 9 score: 0.3146067415730337
+n_est: 100, max_d: 12 score: 0.3707865168539326
+n_est: 200, max_d: 6 score: 0.3707865168539326
+n_est: 200, max_d: 9 score: 0.33707865168539325
+n_est: 200, max_d: 12 score: 0.30337078651685395
+n_est: 300, max_d: 6 score: 0.3595505617977528
+n_est: 300, max_d: 9 score: 0.3146067415730337
+n_est: 300, max_d: 12 score: 0.3258426966292135
+XGB
+eta: 0.003, max_d: 6 score: 0.37640449438202245
+eta: 0.003, max_d: 9 score: 0.33146067415730335
+eta: 0.003, max_d: 12 score: 0.33146067415730335
+eta: 0.03, max_d: 6 score: 0.38764044943820225
+eta: 0.03, max_d: 9 score: 0.3651685393258427
+eta: 0.03, max_d: 12 score: 0.3651685393258427
+eta: 0.3, max_d: 6 score: 0.4157303370786517
+eta: 0.3, max_d: 9 score: 0.4157303370786517
+eta: 0.3, max_d: 12 score: 0.4157303370786517
+DEEPSURV
+lr: 0.05, nn: [16], score: 0.5860215053763441
+lr: 0.05, nn: [32], score: 0.41397849462365593
+lr: 0.05, nn: [64], score: 0.41397849462365593
+lr: 0.05, nn: [16, 16], score: 0.521505376344086
+lr: 0.05, nn: [32, 32], score: 0.41397849462365593
+lr: 0.05, nn: [64, 64], score: 0.34946236559139787
+lr: 0.05, nn: [16, 16, 16], score: 0.6290322580645161
+lr: 0.05, nn: [32, 32, 32], score: 0.5
+lr: 0.05, nn: [64, 64, 64], score: 0.6182795698924731
+6
+RANKSURV
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16], score: 0.3595505617977528
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32], score: 0.4044943820224719
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64], score: 0.3595505617977528
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16], score: 0.47191011235955055
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32], score: 0.2808988764044944
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64], score: 0.43820224719101125
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16, 16], score: 0.3595505617977528
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32, 32], score: 0.4943820224719101
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64, 64], score: 0.48314606741573035
+7
+FILE:  employee_attrition.csv
+COX
+l1: 0.3, a: 1e-05 score: 0.7682818634853519
+l1: 0.3, a: 0.001 score: 0.7682818634853519
+l1: 0.3, a: 0.1 score: 0.7682818634853519
+l1: 0.5, a: 1e-05 score: 0.7682818634853519
+l1: 0.5, a: 0.001 score: 0.7682818634853519
+l1: 0.5, a: 0.1 score: 0.7682818634853519
+l1: 0.9, a: 1e-05 score: 0.7682818634853519
+l1: 0.9, a: 0.001 score: 0.7682818634853519
+l1: 0.9, a: 0.1 score: 0.7682818634853519
+RSF
+n_est: 100, max_d: 6 score: 0.9378243321160868
+n_est: 100, max_d: 9 score: 0.9278815793086406
+n_est: 100, max_d: 12 score: 0.9522528211745971
+n_est: 200, max_d: 6 score: 0.92617154251668
+n_est: 200, max_d: 9 score: 0.9324514016638752
+n_est: 200, max_d: 12 score: 0.9523231789352297
+n_est: 300, max_d: 6 score: 0.9353283476565718
+n_est: 300, max_d: 9 score: 0.9346084676422943
+n_est: 300, max_d: 12 score: 0.9507341231706983
+XGB
+eta: 0.003, max_d: 6 score: 0.9624358199939596
+eta: 0.003, max_d: 9 score: 0.9650647977814997
+eta: 0.003, max_d: 12 score: 0.9667096249416546
+eta: 0.03, max_d: 6 score: 0.9627121029076632
+eta: 0.03, max_d: 9 score: 0.9641304123994399
+eta: 0.03, max_d: 12 score: 0.9647275953433458
+eta: 0.3, max_d: 6 score: 0.9670811482386535
+eta: 0.3, max_d: 9 score: 0.9703665124516075
+eta: 0.3, max_d: 12 score: 0.9699512300595811
+DEEPSURV
+lr: 0.05, nn: [16], score: 0.9046139314729028
+lr: 0.05, nn: [32], score: 0.9024595252877405
+lr: 0.05, nn: [64], score: 0.9047688789128209
+lr: 0.05, nn: [16, 16], score: 0.9096518458379101
+lr: 0.05, nn: [32, 32], score: 0.9067831956317557
+lr: 0.05, nn: [64, 64], score: 0.9132389852003969
+lr: 0.05, nn: [16, 16, 16], score: 0.9064584427782288
+lr: 0.05, nn: [32, 32, 32], score: 0.9105794079097485
+lr: 0.05, nn: [64, 64, 64], score: 0.9129821545123136
+5
+RANKSURV
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16], score: 0.9409732709151314
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32], score: 0.9413662447489086
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64], score: 0.9420183410669669
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16], score: 0.9435850882732489
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32], score: 0.9428712144092694
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64], score: 0.9456100189451141
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16, 16], score: 0.9427656777683204
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32, 32], score: 0.9488807967930589
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64, 64], score: 0.9470309025013042
+7
+FILE:  flchain.csv
+COX
+l1: 0.3, a: 1e-05 score: 0.8005537419531988
+l1: 0.3, a: 0.001 score: 0.8004050096103975
+l1: 0.3, a: 0.1 score: 0.7979757146779755
+l1: 0.5, a: 1e-05 score: 0.8004698416572597
+l1: 0.5, a: 0.001 score: 0.8001609360222107
+l1: 0.5, a: 0.1 score: 0.7971786618665527
+l1: 0.9, a: 1e-05 score: 0.8002753455166732
+l1: 0.9, a: 0.001 score: 0.7998444030875309
+l1: 0.9, a: 0.1 score: 0.7964502547518076
+RSF
+n_est: 100, max_d: 6 score: 0.7923715562742166
+n_est: 100, max_d: 9 score: 0.7963091497086372
+n_est: 100, max_d: 12 score: 0.7911683497574519
+n_est: 200, max_d: 6 score: 0.7940915123409708
+n_est: 200, max_d: 9 score: 0.7952413277603197
+n_est: 200, max_d: 12 score: 0.7935099307441194
+n_est: 300, max_d: 6 score: 0.7936415016627513
+n_est: 300, max_d: 9 score: 0.7932391616072246
+n_est: 300, max_d: 12 score: 0.79383409097843
+XGB
+eta: 0.003, max_d: 6 score: 0.792034048265552
+eta: 0.003, max_d: 9 score: 0.7804386460017695
+eta: 0.003, max_d: 12 score: 0.7742185831528205
+eta: 0.03, max_d: 6 score: 0.8009007840864021
+eta: 0.03, max_d: 9 score: 0.7935938310400585
+eta: 0.03, max_d: 12 score: 0.781184214540684
+eta: 0.3, max_d: 6 score: 0.7925050340177564
+eta: 0.3, max_d: 9 score: 0.777341962351649
+eta: 0.3, max_d: 12 score: 0.774254812826067
+DEEPSURV
+lr: 0.05, nn: [16], score: 0.7992495881886401
+lr: 0.05, nn: [32], score: 0.8016327557806113
+lr: 0.05, nn: [64], score: 0.7952611189067171
+lr: 0.05, nn: [16, 16], score: 0.7987577023976572
+lr: 0.05, nn: [32, 32], score: 0.80068330181197
+lr: 0.05, nn: [64, 64], score: 0.793053352449515
+lr: 0.05, nn: [16, 16, 16], score: 0.7959398450369105
+lr: 0.05, nn: [32, 32, 32], score: 0.7999130620462449
+lr: 0.05, nn: [64, 64, 64], score: 0.8019530535049723
+8
+RANKSURV
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16], score: 0.7952603960093968
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32], score: 0.7889716874637703
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64], score: 0.7968392470329805
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16], score: 0.785604234676755
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32], score: 0.7976134179455105
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64], score: 0.7963854227049455
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16, 16], score: 0.7921446441101992
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32, 32], score: 0.7854326204350611
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64, 64], score: 0.785958904109589
+4
+FILE:  gabs.csv
+COX
+l1: 0.3, a: 1e-05 score: 0.6493137567826365
+l1: 0.3, a: 0.001 score: 0.6493350356420896
+l1: 0.3, a: 0.1 score: 0.6460155335674008
+l1: 0.5, a: 1e-05 score: 0.6493563145015427
+l1: 0.5, a: 0.001 score: 0.6493137567826365
+l1: 0.5, a: 0.1 score: 0.6464836684753698
+l1: 0.9, a: 1e-05 score: 0.6492286413448239
+l1: 0.9, a: 0.001 score: 0.6494414299393553
+l1: 0.9, a: 0.1 score: 0.6467177359293542
+RSF
+n_est: 100, max_d: 6 score: 0.6529737206085754
+n_est: 100, max_d: 9 score: 0.6526970954356847
+n_est: 100, max_d: 12 score: 0.6497818916906054
+n_est: 200, max_d: 6 score: 0.654676029364826
+n_est: 200, max_d: 9 score: 0.6551654431322481
+n_est: 200, max_d: 12 score: 0.6544419619108416
+n_est: 300, max_d: 6 score: 0.6522502393871689
+n_est: 300, max_d: 9 score: 0.6527183742951378
+n_est: 300, max_d: 12 score: 0.6525268645600596
+XGB
+eta: 0.003, max_d: 6 score: 0.6004787743376955
+eta: 0.003, max_d: 9 score: 0.6024683476965634
+eta: 0.003, max_d: 12 score: 0.5998404085541015
+eta: 0.03, max_d: 6 score: 0.6212256623045005
+eta: 0.03, max_d: 9 score: 0.6157463559953187
+eta: 0.03, max_d: 12 score: 0.6074901585275029
+eta: 0.3, max_d: 6 score: 0.6436429407383765
+eta: 0.3, max_d: 9 score: 0.6403659963825938
+eta: 0.3, max_d: 12 score: 0.6270986275135653
+DEEPSURV
+lr: 0.05, nn: [16], score: 0.6577006643546568
+lr: 0.05, nn: [32], score: 0.649573810220198
+lr: 0.05, nn: [64], score: 0.6476726695357874
+lr: 0.05, nn: [16, 16], score: 0.6583274140308361
+lr: 0.05, nn: [32, 32], score: 0.6440793047256925
+lr: 0.05, nn: [64, 64], score: 0.6538565996740902
+lr: 0.05, nn: [16, 16, 16], score: 0.6565516232816613
+lr: 0.05, nn: [32, 32, 32], score: 0.6560293318848452
+lr: 0.05, nn: [64, 64, 64], score: 0.6553190155851752
+3
+RANKSURV
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16], score: 0.6625917650813916
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32], score: 0.6618257261410788
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64], score: 0.661059687200766
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16], score: 0.6521438450899032
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32], score: 0.6518672199170125
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64], score: 0.6574848388126396
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16, 16], score: 0.6573358867964677
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32, 32], score: 0.6512075752739653
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64, 64], score: 0.6588466858176402
+0
+FILE:  GBSG2.csv
+COX
+l1: 0.3, a: 1e-05 score: 0.6485563489599503
+l1: 0.3, a: 0.001 score: 0.6485563489599503
+l1: 0.3, a: 0.1 score: 0.6529028252095622
+l1: 0.5, a: 1e-05 score: 0.6488668115492083
+l1: 0.5, a: 0.001 score: 0.6494877367277243
+l1: 0.5, a: 0.1 score: 0.6538342129773362
+l1: 0.9, a: 1e-05 score: 0.6494877367277243
+l1: 0.9, a: 0.001 score: 0.6501086619062403
+l1: 0.9, a: 0.1 score: 0.6532132877988203
+RSF
+n_est: 100, max_d: 6 score: 0.6234088792300527
+n_est: 100, max_d: 9 score: 0.6224774914622788
+n_est: 100, max_d: 12 score: 0.6203042533374729
+n_est: 200, max_d: 6 score: 0.6414157094070164
+n_est: 200, max_d: 9 score: 0.6277553554796647
+n_est: 200, max_d: 12 score: 0.6240298044085688
+n_est: 300, max_d: 6 score: 0.6258925799441167
+n_est: 300, max_d: 9 score: 0.6240298044085688
+n_est: 300, max_d: 12 score: 0.6299285936044706
+XGB
+eta: 0.003, max_d: 6 score: 0.6001241850357032
+eta: 0.003, max_d: 9 score: 0.5734244023595156
+eta: 0.003, max_d: 12 score: 0.5804098106178206
+eta: 0.03, max_d: 6 score: 0.5877056814653834
+eta: 0.03, max_d: 9 score: 0.5870847562868674
+eta: 0.03, max_d: 12 score: 0.5796336541446756
+eta: 0.3, max_d: 6 score: 0.6026078857497672
+eta: 0.3, max_d: 9 score: 0.6165787022663769
+eta: 0.3, max_d: 12 score: 0.6001241850357032
+DEEPSURV
+lr: 0.05, nn: [16], score: 0.6178836633663366
+lr: 0.05, nn: [32], score: 0.620049504950495
+lr: 0.05, nn: [64], score: 0.6417079207920792
+lr: 0.05, nn: [16, 16], score: 0.6574876237623762
+lr: 0.05, nn: [32, 32], score: 0.6488242574257426
+lr: 0.05, nn: [64, 64], score: 0.6373762376237624
+lr: 0.05, nn: [16, 16, 16], score: 0.5956064356435643
+lr: 0.05, nn: [32, 32, 32], score: 0.6256188118811881
+lr: 0.05, nn: [64, 64, 64], score: 0.6082920792079208
+3
+RANKSURV
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16], score: 0.6532132877988203
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32], score: 0.6460726482458864
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64], score: 0.6190624029804409
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16], score: 0.6358273828003725
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32], score: 0.6150263893200869
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64], score: 0.5892579944116734
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16, 16], score: 0.6370692331574045
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32, 32], score: 0.608817137534927
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64, 64], score: 0.6041601986960571
+0
+FILE:  lung.csv
+COX
+l1: 0.3, a: 1e-05 score: 0.5482546201232033
+l1: 0.3, a: 0.001 score: 0.5482546201232033
+l1: 0.3, a: 0.1 score: 0.5441478439425051
+l1: 0.5, a: 1e-05 score: 0.5482546201232033
+l1: 0.5, a: 0.001 score: 0.5482546201232033
+l1: 0.5, a: 0.1 score: 0.5420944558521561
+l1: 0.9, a: 1e-05 score: 0.5462012320328542
+l1: 0.9, a: 0.001 score: 0.5482546201232033
+l1: 0.9, a: 0.1 score: 0.5420944558521561
+RSF
+n_est: 100, max_d: 6 score: 0.5256673511293635
+n_est: 100, max_d: 9 score: 0.5462012320328542
+n_est: 100, max_d: 12 score: 0.5400410677618069
+n_est: 200, max_d: 6 score: 0.5462012320328542
+n_est: 200, max_d: 9 score: 0.5318275154004107
+n_est: 200, max_d: 12 score: 0.5379876796714579
+n_est: 300, max_d: 6 score: 0.5379876796714579
+n_est: 300, max_d: 9 score: 0.5482546201232033
+n_est: 300, max_d: 12 score: 0.5277207392197125
+XGB
+eta: 0.003, max_d: 6 score: 0.6663244353182751
+eta: 0.003, max_d: 9 score: 0.6324435318275154
+eta: 0.003, max_d: 12 score: 0.6314168377823408
+eta: 0.03, max_d: 6 score: 0.6468172484599589
+eta: 0.03, max_d: 9 score: 0.6057494866529775
+eta: 0.03, max_d: 12 score: 0.6036960985626283
+eta: 0.3, max_d: 6 score: 0.5585215605749486
+eta: 0.3, max_d: 9 score: 0.5174537987679672
+eta: 0.3, max_d: 12 score: 0.5400410677618069
+DEEPSURV
+lr: 0.05, nn: [16], score: 0.5441478439425051
+lr: 0.05, nn: [32], score: 0.5728952772073922
+lr: 0.05, nn: [64], score: 0.6242299794661191
+lr: 0.05, nn: [16, 16], score: 0.5667351129363449
+lr: 0.05, nn: [32, 32], score: 0.5503080082135524
+lr: 0.05, nn: [64, 64], score: 0.5215605749486653
+lr: 0.05, nn: [16, 16, 16], score: 0.5154004106776181
+lr: 0.05, nn: [32, 32, 32], score: 0.5297741273100616
+lr: 0.05, nn: [64, 64, 64], score: 0.6283367556468172
+8
+RANKSURV
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16], score: 0.5852156057494866
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32], score: 0.5215605749486653
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64], score: 0.5277207392197125
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16], score: 0.5831622176591376
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32], score: 0.4948665297741273
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64], score: 0.5338809034907598
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16, 16], score: 0.5379876796714579
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32, 32], score: 0.5400410677618069
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64, 64], score: 0.5503080082135524
+0
+FILE:  metabric.csv
+COX
+l1: 0.3, a: 1e-05 score: 0.5932457786116323
+l1: 0.3, a: 0.001 score: 0.5932457786116323
+l1: 0.3, a: 0.1 score: 0.589243277048155
+l1: 0.5, a: 1e-05 score: 0.5932145090681676
+l1: 0.5, a: 0.001 score: 0.593277048155097
+l1: 0.5, a: 0.1 score: 0.5897435897435898
+l1: 0.9, a: 1e-05 score: 0.593370856785491
+l1: 0.9, a: 0.001 score: 0.5936210131332083
+l1: 0.9, a: 0.1 score: 0.5904002501563477
+RSF
+n_est: 100, max_d: 6 score: 0.6138211382113821
+n_est: 100, max_d: 9 score: 0.6175734834271419
+n_est: 100, max_d: 12 score: 0.6127267041901189
+n_est: 200, max_d: 6 score: 0.6075359599749843
+n_est: 200, max_d: 9 score: 0.6159161976235147
+n_est: 200, max_d: 12 score: 0.6141651031894935
+n_est: 300, max_d: 6 score: 0.6106003752345216
+n_est: 300, max_d: 9 score: 0.6165728580362727
+n_est: 300, max_d: 12 score: 0.6187617260787992
+XGB
+eta: 0.003, max_d: 6 score: 0.5884459036898061
+eta: 0.003, max_d: 9 score: 0.5652751719824891
+eta: 0.003, max_d: 12 score: 0.5866479049405878
+eta: 0.03, max_d: 6 score: 0.599953095684803
+eta: 0.03, max_d: 9 score: 0.5787679799874922
+eta: 0.03, max_d: 12 score: 0.5827704815509693
+eta: 0.3, max_d: 6 score: 0.5929799874921826
+eta: 0.3, max_d: 9 score: 0.6041901188242652
+eta: 0.3, max_d: 12 score: 0.5845215759849907
+DEEPSURV
+lr: 0.05, nn: [16], score: 0.5958444623889683
+lr: 0.05, nn: [32], score: 0.6308155786073669
+lr: 0.05, nn: [64], score: 0.600844772967265
+lr: 0.05, nn: [16, 16], score: 0.6133921361575253
+lr: 0.05, nn: [32, 32], score: 0.6139511770917448
+lr: 0.05, nn: [64, 64], score: 0.5992608236536431
+lr: 0.05, nn: [16, 16, 16], score: 0.5824274799676998
+lr: 0.05, nn: [32, 32, 32], score: 0.599509286291074
+lr: 0.05, nn: [64, 64, 64], score: 0.5970867755761228
+1
+RANKSURV
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16], score: 0.6169480925578487
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32], score: 0.6108505315822389
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64], score: 0.6224828017510944
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16], score: 0.6179174484052533
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32], score: 0.6061913696060037
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64], score: 0.600187617260788
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [16, 16, 16], score: 0.610287679799875
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [32, 32, 32], score: 0.590368980612883
+CIDXT: Harrell, measure: mse, lr: 0.05, nn: [64, 64, 64], score: 0.6033771106941839
+2
+FILE:  NSBDC.csv
